@@ -1,0 +1,62 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N803" />
+          <option value="N802" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="open" />
+          <option value="id" />
+          <option value="str" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyTypeCheckerInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="upload.*" />
+          <option value="app.film.urls.film" />
+          <option value="django.forms.forms.IntegerField" />
+          <option value="django.forms.forms.ModelForm" />
+          <option value="film.models.Film.comments" />
+          <option value="film.models.Actor.objects" />
+          <option value="taggit.models" />
+          <option value="taggit.managers" />
+          <option value="django.db.models.fields.DateField.year" />
+          <option value="django.db.models.fields.DateField.month" />
+          <option value="django.db.models.fields.DateField.day" />
+          <option value="film.models.Film.objects" />
+          <option value="typing.Coroutine.docs" />
+          <option value="django.db.models.fields.related.OneToOneField.*" />
+          <option value="bookmarks.account.models.Profile.objects" />
+          <option value="django.contrib.messages.context_processors.messages.error" />
+          <option value="django.contrib.messages.context_processors.messages.success" />
+          <option value="django.contrib.auth.models.User.MultipleObjectsReturned" />
+          <option value="django.contrib.auth.models.User.DoesNotExist" />
+          <option value="bookmarks.images.models.Image.id" />
+          <option value="bookmarks.images.models.Image.objects" />
+          <option value="bookmarks.images.models.Image.DoesNotExist" />
+          <option value="bookmarks.account.models.Contact.objects" />
+          <option value="bookmarks.actions.models.Action.objects" />
+          <option value="bookmarks.account.views.actions" />
+          <option value="bookmarks.images.apps.images" />
+          <option value="app.account.views.mypage" />
+          <option value="app.account.models.Profile.objects" />
+          <option value="app.post.models.Post.objects" />
+          <option value="django.db.models.fields.related.ForeignKey.username" />
+          <option value="app.account.models.Subscribe.objects" />
+          <option value="app.account.views.name_user" />
+          <option value="app.post.models.Post.DoesNotExist" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
